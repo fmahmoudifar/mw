@@ -140,7 +140,8 @@ class Sentence():
         """
         # raise NotImplementedError
 
-        if cell in
+        if cell in self.cells:
+            self.cells.remove(cell)
 
 
 class MinesweeperAI():
